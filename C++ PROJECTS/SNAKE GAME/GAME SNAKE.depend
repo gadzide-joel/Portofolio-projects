@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1762259113 source:c:\users\user\downloads\projects\c++ projects\game snake\main.cpp
+	<iostream>
+	<vector>
+	<thread>
+	<chrono>
+	<conio.h>
+	<windows.h>
+	<random>
+	<algorithm>
+
+1762259603 source:c:\users\user\downloads\projects\c++ projects\game snake\snake game.cpp
+	<iostream>
+	<vector>
+	<thread>
+	<chrono>
+	<conio.h>
+	<windows.h>
+	<random>
+	<algorithm>
+

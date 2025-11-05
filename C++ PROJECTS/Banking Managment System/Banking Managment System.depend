@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1762256737 source:c:\users\user\downloads\projects\c++ projects\banking managment system\banking managment system.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<string>
+	<iomanip>
+	<ctime>
+	<sstream>
+	<algorithm>
+

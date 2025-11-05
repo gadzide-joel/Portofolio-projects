@@ -1,0 +1,58 @@
+/*
+ * Arduino sketch to demonstrate alternating fast and slow blinking patterns 
+ * on the built-in LED (pin 13).
+ */
+
+// Pin 13 is the pin for the built-in LED on most Arduino boards
+const int ledPin = 13; 
+
+/**
+ * Executes a single blink cycle.
+ * @param high_ms Duration (in milliseconds) the LED should be HIGH (ON).
+ * @param low_ms Duration (in milliseconds) the LED should be LOW (OFF).
+ */
+void blinkOnce(int high_ms, int low_ms) {
+  digitalWrite(ledPin, HIGH); // Turn the LED ON
+  delay(high_ms);             // Wait for the specified HIGH time
+  digitalWrite(ledPin, LOW);  // Turn the LED OFF
+  delay(low_ms);              // Wait for the specified LOW time
+}
+
+// --- Initial Configuration (runs once) ---
+void setup() {
+  // Configure the LED pin as an output
+  pinMode(ledPin, OUTPUT);
+}
+
+// --- Main Loop (runs indefinitely) ---
+void loop() {
+  
+  // 1. FAST BLINK (5 times)
+  // Period of 1 second: 0.5s HIGH (500 ms) and 0.5s LOW (500 ms)
+  
+  // The total HIGH time is 0.5 seconds = 500 ms
+  const int FAST_HIGH = 500; 
+  // The total LOW time is 0.5 seconds = 500 ms
+  const int FAST_LOW = 500; 
+
+  // Execute the fast blink 5 times
+  for (int i = 0; i < 5; i++) {
+    blinkOnce(FAST_HIGH, FAST_LOW);
+  }
+
+  // 2. SLOW BLINK (5 times)
+  // Period of 4 seconds: 2s HIGH (2000 ms) and 2s LOW (2000 ms)
+  
+  // The total HIGH time is 2 seconds = 2000 ms
+  const int SLOW_HIGH = 2000;
+  // The total LOW time is 2 seconds = 2000 ms
+  const int SLOW_LOW = 2000;
+
+  // Execute the slow blink 5 times
+  for (int i = 0; i < 5; i++) {
+    blinkOnce(SLOW_HIGH, SLOW_LOW);
+  }
+  
+  // The loop() function automatically returns to the beginning after execution.
+  // This ensures the pattern continues as long as the Arduino is powered.
+}

@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1762274629 source:c:\users\user\downloads\projects\c projets\hospital management system\appointment.c
+	"hospital.h"
+
+1762274567 c:\users\user\downloads\projects\c projets\hospital management system\hospital.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1762274610 source:c:\users\user\downloads\projects\c projets\hospital management system\doctor.c
+	"hospital.h"
+
+1762274587 source:c:\users\user\downloads\projects\c projets\hospital management system\patient.c
+	"hospital.h"
+
+1762274699 source:c:\users\user\downloads\projects\c projets\hospital management system\utils.c
+	"hospital.h"
+
+1762274768 source:c:\users\user\downloads\projects\c projets\hospital management system\main.c
+	"hospital.h"
+
