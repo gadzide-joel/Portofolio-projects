@@ -31,4 +31,3 @@
 - **Artificial Intelligence & Mathematics**: Advanced algorithms for optimization and modeling
 - **Applied Sciences**: Numerical methods for energy systems and smart home technologies
 
-**[View Detailed Study Plan](https://github.com/gadzidejoel/Portfolio-projects)**
