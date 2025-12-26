@@ -8,7 +8,7 @@
 - **Advanced Development**: C++ Banking System, Snake Game – System modeling and game development  
 - **Mathematics & AI**: Python Kinematics, Numerical Analysis – Scientific visualization and computations
 
-**Total: 18+ Projects | 8 International Certificates (Duke, UC Irvine, Michigan)**
+**Total: 20+ Projects | 9 International Certificates (Duke, UC Irvine, Michigan)**
 
 ## 📜 Certifications & Hands-on Experience (300+ Hours)
 - **University Certifications**: Programming Foundations (Duke), Programming for Everybody (Michigan), IoT & Embedded Systems (UC Irvine) – 200+ hours, 15+ projects
@@ -16,7 +16,7 @@
 - **Practical Electronics**: 1-month phone repair workshop – Circuit diagnosis, soldering techniques applied in Arduino projects for drone sensors
 
 ## 📂 Certifications Portfolio
-**8 International Certificates – 300+ Hours of Specialized Training**
+**9 International Certificates – 300+ Hours of Specialized Training**
 - Duke University (3): Programming Foundations, Fundamentals, Java Problems
 - University of Michigan: Programming for Everybody (Python)
 - UC Irvine (2): IoT/Embedded Systems, Arduino C Programming
